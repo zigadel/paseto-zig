@@ -3,6 +3,7 @@ const std = @import("std");
 pub const PasetoError = error{
     InvalidToken,
     InvalidFooter,
+    InvalidAuthenticationTag,
     CryptoFailure,
     DecodeError,
     SignatureMismatch,

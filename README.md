@@ -2,6 +2,8 @@
 
 Modern, secure PASETO (Platform-Agnostic Security Tokens) library in pure Zig.
 
+Current Zig version: `0.15.0-dev.386+2e35fdd03`
+
 # ✨ Overview
 
 paseto-zig is a production-quality implementation of PASETO v4.local encryption, based on:
