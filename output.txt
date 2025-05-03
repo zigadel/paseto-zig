@@ -1,0 +1,39 @@
+Folder PATH listing
+Volume serial number is 0AC3-353D
+C:.
+|   .gitignore
+|   build.zig
+|   build.zig.zon
+|   output.txt
+|   README.md
+|   
+\---src
+    |   main.zig
+    |   root.zig
+    |   utils.zig
+    |   
+    +---cmds
+    |       fingerprint.zig
+    |       generate_key.zig
+    |       inspect.zig
+    |       repl.zig
+    |       v2.zig
+    |       v4.zig
+    |       
+    \---lib
+        |   constants.zig
+        |   errors.zig
+        |   paseto.zig
+        |   
+        +---crypto
+        |       ed25519.zig
+        |       xchacha20poly1305.zig
+        |       
+        +---v2
+        |       local.zig
+        |       public.zig
+        |       
+        \---v4
+                local.zig
+                public.zig
+                
